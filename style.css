@@ -44,6 +44,14 @@ h1 {
     display: none;
 }
 
+.img-info-top {
+    width: 80%;
+    margin: 1.5rem auto;
+    text-align: left;
+    font-size: 0.875rem;
+    color: #707070;
+}
+
 @media(max-width: 675px) {
     .img-info-mobile {
         width: 100%;
@@ -51,6 +59,9 @@ h1 {
     }
     .img-info {
         display: none;
+    }
+    .img-info-top {
+        width: 90%;
     }
 }
 
@@ -76,7 +87,7 @@ h1 {
 
 @media(max-width: 675px) {
     .h2-article {
-        margin-top: -2rem;
+        margin-top: 1rem;
     }
 }
 
@@ -426,6 +437,12 @@ nav a:focus {
     font-size: 1.3125rem;
 }
 
+/* Recent Posts Styling*/
+
+.life-recent-posts {
+    float: left;
+    width: 30%;
+}
 
 
 
